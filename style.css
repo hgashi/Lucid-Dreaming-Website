@@ -1,5 +1,5 @@
 :root {
-    --white: #fff;
+    --white: #ffffff;
     --grey: #e6e6e6;
     --black: #262626;
     --green: #06847d;
@@ -8,8 +8,8 @@
     --red: #e02e06;
     --primary: var(--blue);
     --secondary: var(--green);
-    --background: #fff;
-    --background-alt: #f8fafc;
+    --background: #4e3279;
+    --background-alt: #0d243b;
     --selection: #9e9e9e;
     --text-main: #4a4a4a;
     --text-bright: #000;
@@ -68,10 +68,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-body {
-    margin: 0;
-    font-size: 1em;
-}
+
+
+
+
 
 code,
 samp,
@@ -524,10 +524,13 @@ h6 {
 
 h1 {
     font-size: var(--typo-size-1);
+    padding-top: 20pxpx;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-    font-size: var(--typo-size-2);
+    font-size: 20px;
+
 }
 
 h3 {
@@ -2139,6 +2142,7 @@ mark {
 
     [style*="--pb-md:"] {
         padding-bottom: var(--pb-md) !important;
+        color: blueviolet;
     }
 
     [style*="--m-md:"] {
