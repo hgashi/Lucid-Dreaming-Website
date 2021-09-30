@@ -522,24 +522,8 @@ h6 {
     color: var(--text-c, inherit);
 }
 
-h1 {
-    font-size: var(--typo-size-1);
-    padding-top: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
-h2 {
-    font-size: 20px;
 
-}
-
-h3 {
-    font-size: var(--typo-size-3);
-}
-
-h4 {
-    font-size: var(--typo-size-4);
-}
 
 h5 {
     font-size: var(--typo-size-5);
