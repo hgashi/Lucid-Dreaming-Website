@@ -1,6 +1,22 @@
 nav {
     background-color: rgb(43, 15, 75);
     overflow: hidden;
+    border-radius: 25px;
+}
+
+li {
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+    color: #e7c8f5;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 img {
@@ -8,35 +24,25 @@ img {
     height: 300px;
     width: 750px;
     padding-left: 0px;
-    display: block;
-    position: relative;
-    top:150px;
-    left:500px;
-    transform:translate(-50%, -50%)
 }
-
-
-
-
 
 body {
     color: #e7c8f5;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-li {
-    display: inline-block;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1 {
+    font-size: var(--typo-size-1);
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+h2 {
+    font-size: 25px;
 
 }
 
-a {
-    text-decoration: none;
-    color: #e7c8f5;
-
+h3 {
+    font-size: 20px;
 }
 
-a:hover {
-    text-decoration: underline;
-}
