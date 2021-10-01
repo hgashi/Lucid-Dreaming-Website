@@ -56,13 +56,13 @@ body {
 
 h1 {
     font-size: var(--typo-size-1);
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 5px;
